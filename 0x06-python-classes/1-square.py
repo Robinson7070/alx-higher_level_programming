@@ -6,6 +6,9 @@ class Square():
     """square class"""
 
     def __init__(self, size=None):
-        """instance of class Square
+        """ Instance of class Square
 
+        Args:
+           size (int):  of side of square
+        """
         self.__size = size
